@@ -11,7 +11,18 @@
 
     </script>
     <style type="text/tailwindcss">
-
+        @layer utilities {
+      a {
+        @apply underline text-white hover:bg-white hover:text-black;
+      }
+      .job-title{
+            @apply mt-4;
+        }
+        .profile-details{
+            @apply text-xl mt-4
+        }
+    }    
+        
     </style>
 </head>
 <body>
@@ -44,31 +55,31 @@
             <br>UI Designer/Developer
             <br>based in NYC/USA.
         </h1>
-        <p class="profile-details text-xl mt-4">
+        <p class="profile-details">
             I'm building minimal, modern and beautiful websites, mobile apps, user interfaces.
             I can be helpful for your company about creating digital products. 
         </p>
-        <p class="profile-details text-xl mt-4">
+        <p class="profile-details">
             You can contact me via <a href="mailto:yunuserturk@gmail.com">e-mail</a> or <a href="https://www.linkedin.com/in/yunuserturk/">linkedin</a>.
         </p>
-        <p class="profile-details text-xl mt-4">
+        <p class="profile-details">
             If this resonates with you, and you want to meet with me, grab some time <a href="https://calendly.com/yunus-erturk/30min">on my calendar</a>  and we can chat.
         </p>
 
-        <div class="experience mt-10">
+        <div class="experience mt-16">
             <a id="experiences"></a>
-            <h2 class="font-bold mb-2">Work Experience</h2>
-            <p class="job-title mt-2">UI Designer/Developer / Remote <a href="https://nadirkitap.com">@nadirkitap.com</a></p>
+            <h2 class="font-bold mb-4">Work Experience</h2>
+            <p class="job-title">UI Designer/Developer / Remote <a href="https://nadirkitap.com">@nadirkitap.com</a></p>
             <p class="date">Jan 2017 - Present · 5 yrs 2 mos</p>
-            <p class="job-title mt-2">UI Designer/Developer @freelance</p>
+            <p class="job-title">UI Designer/Developer @freelance</p>
             <p class="date">Mar 2015 - Present · 7 yrs</p>
-            <p class="job-title mt-2">UI Designer/Developer / Remote <a href="https://krontech.com">@Krontech</a></p>
+            <p class="job-title">UI Designer/Developer / Remote <a href="https://krontech.com">@Krontech</a></p>
             <p class="date">Sep 2017 - Dec 2018 · 1 yr 4 mos</p>
-            <p class="job-title mt-2">Digital Marketing Specialist<a href="https://multinet.com.tr/">@Multinet</a></p>
+            <p class="job-title">Digital Marketing Specialist <a href="https://multinet.com.tr/">@Multinet</a></p>
             <p class="date">Oct 2014 - Apr 2015 · 7 mos</p>
-            <p class="job-title mt-2">Web Designer<a href="https://www.arikanliholding.com/en">@Arıkanlı Holding</a></p>
+            <p class="job-title">Web Designer <a href="https://www.arikanliholding.com/en">@Arıkanlı Holding</a></p>
             <p class="date">Apr 2012 - Oct 2014 · 2 yrs 7 mos</p>
-            <p class="job-title mt-2">Web Designer<a href="https://www.yehaajans.com">@Yeha Interactive</a></p>
+            <p class="job-title">Web Designer <a href="https://www.yehaajans.com">@Yeha Interactive</a></p>
             <p class="date">Oct 2010 - May 2012 · 1 yr 8 mos</p>
         </div>
         

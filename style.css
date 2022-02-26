@@ -1,4 +1,10 @@
+body{
+    color: #aaa;
+}
 
+h1,h2,h3,h4,h5,h6,a{
+    color:#fff;
+}
 
 .date{
     opacity: 0.6;
@@ -12,13 +18,10 @@
     transition: max-height 0.2s ease-out;
 }
 
-.profile-details{
-    color: #aaa;
-}
 
-.profile-details a{
-    text-decoration: underline;
-    color: #fff;
+
+.menu-list a{
+    text-decoration: none;
 }
 
 .logo{
