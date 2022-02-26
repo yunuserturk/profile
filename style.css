@@ -1,0 +1,27 @@
+
+
+.date{
+    opacity: 0.6;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+}
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.profile-details{
+    color: #aaa;
+}
+
+.profile-details a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
